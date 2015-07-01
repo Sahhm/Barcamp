@@ -1,0 +1,167 @@
+html {
+ box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;   
+}
+
+.header {
+  background: #2c4947;
+  padding: 11px;
+  height: 44px;
+}
+.foot {
+  
+  position: relative;
+  left: 55px;
+  margin: 0px;
+  height: 57px;
+}
+
+.primary {
+  margin: 0px;
+  display: block;
+}
+
+
+
+body {
+  
+  margin: 0px;
+  padding: 0px;
+  width: 370px;
+  height:484px ;
+}
+.bottom {
+  background: #536463;
+  margin: 0px;
+  padding: 0px;
+  height: 57px;
+  
+}
+.blankspace {
+  height: 90px;
+}
+
+.paragraph{
+  font-family: Helvetica;
+  margin-left: 55px;
+  margin-right: 40px;
+  font-size: 17px;
+  color: #A8A39D;
+}
+
+.heading {
+  font-family: Helvetica;
+  margin-top: 40px;
+  margin-left: 55px;
+  margin-right: 40px;
+  font-size: 16px;
+  color: #6B6866;
+  
+}
+
+#dash {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part2/dash-horizontal.png?token=ALYbvfGZgSc5s8fm6EtNaB7cfRhOiAYKks5VnALrwA%3D%3D");
+  background-repeat: repeat-x;
+}
+
+h2 {
+  text-align: center;
+}
+
+.cat_title {
+  font-size: 18px;
+  text-align: center;
+  color: #709b4b;
+  margin-bottom: 30px;
+  font-family: Verdana;
+  font-weight: 700;
+  
+}
+.cat_image {
+  margin-left: 98px;
+  margin-right: 98px;
+  margin-bottom: 30px;
+}
+.cat_text {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: Verdana;
+  font-size: 13px;
+  font-weight: 400;
+  
+  
+}
+.line-separator{
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  height:0px;
+
+  background:#E2DDD9;
+
+  border-bottom:1px solid #E2DDD9;
+
+}
+
+#woodbackground {
+  
+  background-image: url("https://raw.githubusercontent.com/omahacodeschool/class-drakon/master/06-30-css-barcamp/assets/part3/wood-bg.png?token=ALe8N_iylAI2tRh9KaGHfw3Z0t2picZMks5VnC9YwA%3D%3D");
+  background-repeat: repeat-y;
+  
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+    padding: 4px;
+
+    border: 3px solid #D0572B;
+}
+
+.events {
+  text-align: center;
+  color: #edc442;
+  font-family: Lucida;
+  
+  
+}
+
+#fire {
+  
+  margin-left: 27px;
+}
+
+.time-font {
+  font-family: Georgia;
+  font-size: 32px;
+  color: #FEFEFE;  
+}
+
+.am-pm {
+  font-family: Georgia;
+  font-size: 14px;
+  color: #FEFEFE; 
+}
+
+.times {
+  font-family: Futura, Arial;
+  color: #FEFEFE;  
+  text-align: center;
+  padding-top: 50px;
+  margin: 20px;
+}
+
+.times p {
+  font-weight: 100;
+}
